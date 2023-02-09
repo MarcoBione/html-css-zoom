@@ -17,8 +17,17 @@
     outline: 1px solid white;
 }
 
+.container{
+    height: 100vh;
+}
+
 .d-flex{
     display: flex;
+    flex-flow: row wrap;
+}
+
+.a-center{
+    align-items: center;
 }
 
 .j-left{
@@ -29,17 +38,32 @@
     padding:10px;
 }
 
+.padding-main{
+    padding: 35px 150px;
+}
+
 .padding-3{
     padding:3px;
 }
 
+.padding-speakers{
+    padding: 10px 3px;
+}
+
 body{
     background-color: var(--back-g);
+    height: 100vh;
+    min-height: 100vh;
 }
 
 .icons-style{
     border-color: var(--back-g);
     border-radius: 5px;
+}
+
+.user-style{
+    border-color: var(--back-g);
+    border-radius: 10px;
 }
 
 /* =====END GENERAL===== */
@@ -50,6 +74,8 @@ body{
 
 .nav-bar{
     color: var(--back-g-icons);
+    width: 100%;
+    height: 45px;
 }
 
 div span{
@@ -62,8 +88,35 @@ div span{
 
 /* =====MAIN===== */
 
+.speakers-container{
+    width: 90%;
+    height: calc(100vh - 90px);
+    margin: 0 auto;
+}
 
+.user{
+    display: block;
+    position: relative;
+    width: calc(100% / 7);
+    height: calc(100% / 5);
+    overflow: hidden;
+}
 
+main img{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.info{
+    position: absolute;
+    bottom: 15px;
+    background-color: var(--background-icons);
+}
+
+.mic, .name{
+    color: var(--back-g-icons);
+}
 
 
 /* =====END MAIN===== */
@@ -73,7 +126,13 @@ div span{
 
 /* =====FOOTER===== */
 
+.command{
 
+    color: var(--back-g-icons);
+    width: 100%;
+    height: 45px;
+
+}
 
 
 
