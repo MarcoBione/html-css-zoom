@@ -38,6 +38,10 @@
     justify-content: flex-end;
 }
 
+.j-space-between{
+    justify-content: space-between;
+}
+
 .padding-10{
     padding:10px;
 }
@@ -123,8 +127,6 @@ main img{
 
 
 /* =====END MAIN===== */
-
-
 
 
 /* =====FOOTER===== */
