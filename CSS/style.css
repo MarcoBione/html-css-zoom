@@ -10,6 +10,7 @@
     --back-g: #000000;
     --back-g-icons: #FFFFFF;
     --back-g-funcion: #4BC800;
+    --background-icons: rgba(255, 255, 255, 0.4);
 }
 
 .debug{
@@ -20,8 +21,25 @@
     display: flex;
 }
 
+.j-left{
+    justify-content: flex-end;
+}
+
+.padding-10{
+    padding:10px;
+}
+
+.padding-3{
+    padding:3px;
+}
+
 body{
     background-color: var(--back-g);
+}
+
+.icons-style{
+    border-color: var(--back-g);
+    border-radius: 5px;
 }
 
 /* =====END GENERAL===== */
@@ -30,9 +48,13 @@ body{
 
 /* =====HEADER===== */
 
+.nav-bar{
+    color: var(--back-g-icons);
+}
 
-
-
+div span{
+    background-color: var(--background-icons);
+}
 
 /* =====END HEADER===== */
 
