@@ -6,7 +6,23 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+:root{
+    --back-g: #000000;
+    --back-g-icons: #FFFFFF;
+    --back-g-funcion: #4BC800;
+}
 
+.debug{
+    outline: 1px solid white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+body{
+    background-color: var(--back-g);
+}
 
 /* =====END GENERAL===== */
 
